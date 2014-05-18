@@ -1,9 +1,13 @@
 dev:
   db:
-    - engine: mysql
-    - host: 192.168.42.43
-    - name: wordpress
+    type: database
+    engine: mysql
+    user: root
+    host: 192.168.42.43
+    name: wordpress
+
 production:
   db:
-    - engine: mysql
-    - name: wordpress
+    type: database
+    engine: mysql
+    name: wordpress
