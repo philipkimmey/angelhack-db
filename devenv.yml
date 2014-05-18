@@ -11,3 +11,6 @@ production:
     type: database
     engine: mysql
     name: wordpress
+    user: root
+    password: iene5akai8Wi
+    host: 127.0.0.1
